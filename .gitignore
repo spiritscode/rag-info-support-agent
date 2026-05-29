@@ -1,0 +1,27 @@
+# .gitignore
+
+# API keys — the most critical one
+.env
+
+# ChromaDB generated database — rebuilds from docs automatically
+chroma_db/
+
+# Python virtual environment — huge and OS-specific
+.venv/
+venv/
+env/
+
+# Python bytecode — the .pyc files you accidentally uploaded
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store       # Mac
+Thumbs.db       # Windows
+
+# Model weight files 
+*.pkl
+*.joblib
+*.h5
+*.pt
