@@ -1,6 +1,6 @@
 # RAG Chatbot — Applied AI Demo
 
-A production-pattern RAG system built on Claude API + ChromaDB.
+A basic RAG system built on Claude API + ChromaDB.
 Demonstrates: embeddings, semantic search, context injection, prompt engineering.
 
 ## Architecture
