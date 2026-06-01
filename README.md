@@ -8,8 +8,11 @@ User query → embed query → semantic search (ChromaDB) → inject top-k chunk
 
 ## Setup
 pip install -r requirements.txt
+
 cp .env.example .env        # add your Anthropic API key
+
 python ingest.py            # index your documents
+
 python chat.py              # start chatting
 
 ## Design decisions
