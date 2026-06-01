@@ -9,7 +9,7 @@ User query → embed query → semantic search (ChromaDB) → inject top-k chunk
 ## Setup
 pip install -r requirements.txt
 
-cp .env.example .env        # add your Anthropic API key
+Add your Anthropic API key to env
 
 python ingest.py            # index your documents
 
